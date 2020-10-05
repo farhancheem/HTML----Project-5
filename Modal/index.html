@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jaavascript Plugins</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	 <meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<div class="container">
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        This is the body
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<br><br>
+
+
+
+	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </ul>
+</div>
+
+<br><br>
+
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" >Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#tab3" role="tab" >Links</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#tab2" role="tab" >Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" id="home-tab" data-toggle="tab" href="#tab3" role="tab" >Disabled</a>
+  </li>
+
+</ul>
+
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">Tab2</div>
+  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="contact-tab">Tab3</div>
+
+</div>
+
+
+<br><br>
+
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+Tooltip on bottom
+
+</button>
+<br><br>
+<a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+
+
+
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+
+	<script src="js/bootstrap.js"></script>
+
+	<script>
+		
+		$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+	</script>
+
+	
+
+
+
+</body>
+</html>

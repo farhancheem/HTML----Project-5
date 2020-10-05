@@ -1,0 +1,51 @@
+.btn-primary{
+	background: #313461;
+	border-color: #313461;
+	/*color: red; text color*/
+
+}
+
+.jumbotron{
+	background: #333 url('../images/0.jpeg') -400px -200px;
+	color:white;
+	text-align: center;
+	border-bottom: 5px #f4f4f4 solid;
+	padding: 0px 60px 40px 60px;
+
+
+}
+
+.jumbotron h1{
+	margin-top:60px;
+	margin-bottom: 30px;
+}
+
+.jumbotron p.lead{
+	font-size: 25px;
+	margin-bottom: 60px;
+}
+.navbar{
+    color: white;
+    margin:0;
+
+}
+
+.navbar .navbar-brand{
+	color:white;
+}
+
+.navbar a{
+	color:#fff;
+	margin:3px;
+}
+
+
+#navbarText li a{
+ color: white;
+}
+
+.navbar a:hover{
+	background:none !important;
+	border-bottom: #fff 3px solid;
+	margin-bottom: 0px;
+}
